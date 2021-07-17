@@ -7,8 +7,6 @@ from sklearn.model_selection import train_test_split
 
 # Cargamos la información a utilizar
 df = pd.read_csv('./in/income.csv')
-st.write(df.columns)
-
 st.image('./pig.jpg')
 
 siteHeader = st.beta_container()
